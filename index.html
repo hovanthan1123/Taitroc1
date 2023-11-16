@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>VAnh</title>
+        <meta charset="utf-f8">
+        <style>
+            h1{
+                color: white;
+                background : #87CEFA;
+            }
+           
+        </style>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body> 
+        <h1 title="Đây là học sinh của lớp 11B7">
+             <div id="td1">Nghi vấn Lê Văn Anh Tài bắt cá hai tay </div>
+             <div id="td2">Đây là một câu chuyện học đường thú vị </div>
+        </h1>
+        <h3>
+            Câu chuyện bắt đầu từ một hôm nọ <br>
+            Thanh Nhân bắt gặp được Tài đang đi <br>
+             chơi và thấy trọc đang chơi với 1 <br>
+             bạn nữ nhưng điều đáng nói ở đây là trọc đã có crush rồi
+        </h3>
+            <img width="208px" height="205px"src="https://scontent.fdad3-4.fna.fbcdn.net/v/t1.15752-9/385505912_327482946652811_5078339186401654761_n.jpg?_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=8cd0a2&amp;_nc_ohc=XmoVfBWx0SIAX966Mns&amp;_nc_ht=scontent.fdad3-4.fna&amp;oh=03_AdQHssPBjnFUgo337iCXOOKHFCQM4ajXYp_NDDqyHpCOsA&amp;oe=657CD7E7" id="img1">
+        <form>
+            <div id="p1">
+                <lable> Điền tên của bạn vào đây </lable>
+                <input type="text" placeholder="Tên tui là" />
+            </div>
+            <div id="p2">
+                <lable> Bạn sống ở đâu </lable>
+                <select>
+                    <option> Trên thế giới </option>
+                    <option> Trái Đất</option>
+                    <option> Hệ Mặt Trời </option>
+                </select>
+                <!-- <div> -->
+                    <br>
+                    <lable> Bạn có crush chưa </lable>
+                    <input type="radio" name="Cr"> Có rồi
+                    <input type="radio" name="Cr" id="chuaco"> Chưa có
+                    <input type="radio" name="Cr" id="hoidellgi"> Hỏi dell gì
+                <!-- </div> -->
+            </div>
+
+        </form>
+    </body>
+        
+<script>
+    function playSound(){
+        const audio = new Audio('nonqua.mp3');
+        audio.play();
+    }
+    const ayda= document.querySelector('#chuaco');
+    ayda.onclick = () => {
+        playSound();
+        ayda.style.top='-50px';
+        setTimeout( () => {
+            ayda.style.top ='-10px';
+        },1000);
+    }
+    const ayda1= document.querySelector('#hoidellgi');
+    ayda1.onclick = () => {
+        playSound();
+        ayda1.style.top='-50px';
+        setTimeout( () => {
+            ayda1.style.top ='-10px';
+        },1000);
+    }
+</script>
+</html>

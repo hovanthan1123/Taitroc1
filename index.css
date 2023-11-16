@@ -1,0 +1,36 @@
+html{
+    background: url("https://th.bing.com/th/id/OIP.ovRLTQV8hICAaVx8p2HAtwHaEK?pid=ImgDet&amp;");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+body{
+    font-family: Arial;
+}
+h3,#img1,#p1,#p2  {
+    color:#f0f8ff;
+    margin: 0px 100px 0px 100px;
+}
+h3{
+    margin-top:100px;
+    margin-bottom: 10px;
+    width:200px;
+}
+#img1{
+    margin-bottom: 10px;
+}
+#td2{
+    /* font-style: italic; */
+    font-size: medium;
+  
+}
+h1{
+    width: 600px;
+    margin-left: 100px;
+    padding: 10px 20px;
+    text-align:center;
+}
+#img1{
+    cursor: pointer;
+    transition: all 1s;
+}
